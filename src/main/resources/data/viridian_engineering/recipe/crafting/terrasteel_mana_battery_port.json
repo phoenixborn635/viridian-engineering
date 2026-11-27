@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "PCP",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "item": "botania:mana_diamond"
+    },
+    "P": {
+      "item": "viridian_engineering:terrasteel_mana_pipe"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_mana_battery_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_battery_port"
+  }
+}

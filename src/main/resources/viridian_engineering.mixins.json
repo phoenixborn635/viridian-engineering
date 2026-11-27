@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.viridianengineering.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MechanicalPressBlockEntityMixin",
+    "MechanicalMixerBlockEntityMixin",
+    "BasinOperatingBlockEntityMixin",
+    "MechanicalCrafterJobMixin",
+    "SawJobRecipeMixin",
+    "BeltInventoryMixin",
+    "FluidTransportBehaviourMixin",
+    "BacktankUtilMixin",
+    "EquipmentHandlerMixin",
+    "LivingEntityAccessor"
+  ],
+  "client": ["AlfheimPressRendererMixin", "LanceChargePoseMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

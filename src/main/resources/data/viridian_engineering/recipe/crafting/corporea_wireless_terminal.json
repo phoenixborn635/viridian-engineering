@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    " TA"
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:arcane_corporea_spark"
+    },
+    "T": {
+      "item": "viridian_engineering:corporea_crafting_terminal"
+    },
+    "A": {
+      "item": "botania:ender_air_bottle"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_wireless_terminal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "P": {
+      "item": "botania:corporea_spark"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_pipe",
+    "count": 8
+  }
+}

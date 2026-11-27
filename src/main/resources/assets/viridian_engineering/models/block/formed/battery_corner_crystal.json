@@ -1,0 +1,176 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rock": "viridian_engineering:block/p4_rock",
+    "band": "viridian_engineering:block/p4_rock_band_green",
+    "wood": "viridian_engineering:block/p4_wood_green",
+    "glass": "viridian_engineering:block/p4_glass_green",
+    "gem": "viridian_engineering:block/p4_crystal_green",
+    "bricks": "viridian_engineering:block/p4_bricks_green",
+    "particle": "viridian_engineering:block/p4_rock_band_green"
+  },
+  "elements": [
+    {
+      "from": [
+        -0.3,
+        7,
+        -0.3
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        -0.3,
+        7,
+        -0.3
+      ],
+      "to": [
+        16,
+        9,
+        -0.3
+      ],
+      "faces": {
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        -0.3,
+        7,
+        -0.3
+      ],
+      "to": [
+        -0.3,
+        9,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        -0.3,
+        9,
+        -0.3
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    },
+    {
+      "from": [
+        -0.3,
+        7,
+        -0.3
+      ],
+      "to": [
+        16,
+        7,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "neoforge_data": {
+        "block_light": 15,
+        "sky_light": 15
+      }
+    }
+  ]
+}

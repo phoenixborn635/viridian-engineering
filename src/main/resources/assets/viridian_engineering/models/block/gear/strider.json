@@ -1,0 +1,319 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tank": "viridian_engineering:block/gear_tank",
+    "plate": "viridian_engineering:block/gear_plate",
+    "bark": "viridian_engineering:block/gear_bark",
+    "gold": "viridian_engineering:block/gear_gold",
+    "rock": "viridian_engineering:block/p4_rock",
+    "gem": "viridian_engineering:block/p4_crystal_green",
+    "pink": "viridian_engineering:block/p4_crystal_pink",
+    "particle": "viridian_engineering:block/gear_plate"
+  },
+  "elements": [
+    {
+      "from": [
+        6.75,
+        8.5,
+        7
+      ],
+      "to": [
+        9.25,
+        13,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tank",
+          "uv": [
+            6.75,
+            3.0,
+            9.25,
+            7.5
+          ]
+        },
+        "south": {
+          "texture": "#tank",
+          "uv": [
+            6.75,
+            3.0,
+            9.25,
+            7.5
+          ]
+        },
+        "east": {
+          "texture": "#tank",
+          "uv": [
+            7,
+            3.0,
+            9,
+            7.5
+          ]
+        },
+        "west": {
+          "texture": "#tank",
+          "uv": [
+            7,
+            3.0,
+            9,
+            7.5
+          ]
+        },
+        "up": {
+          "texture": "#tank",
+          "uv": [
+            6.75,
+            7,
+            9.25,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#tank",
+          "uv": [
+            6.75,
+            7,
+            9.25,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8,
+        6.75
+      ],
+      "to": [
+        9.5,
+        8.5,
+        9.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold",
+          "uv": [
+            6.5,
+            7.5,
+            9.5,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#gold",
+          "uv": [
+            6.5,
+            7.5,
+            9.5,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#gold",
+          "uv": [
+            6.75,
+            7.5,
+            9.25,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#gold",
+          "uv": [
+            6.75,
+            7.5,
+            9.25,
+            8
+          ]
+        },
+        "down": {
+          "texture": "#gold",
+          "uv": [
+            6.5,
+            6.75,
+            9.5,
+            9.25
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        4,
+        7.5
+      ],
+      "to": [
+        8.5,
+        8,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold",
+          "uv": [
+            7.5,
+            8,
+            8.5,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#gold",
+          "uv": [
+            7.5,
+            8,
+            8.5,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#gold",
+          "uv": [
+            7.5,
+            8,
+            8.5,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#gold",
+          "uv": [
+            7.5,
+            8,
+            8.5,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        3,
+        7
+      ],
+      "to": [
+        9,
+        4,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ]
+        },
+        "south": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ]
+        },
+        "east": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ]
+        },
+        "west": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            12,
+            9,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#bark",
+          "uv": [
+            7,
+            7,
+            9,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.75,
+        1.5,
+        7
+      ],
+      "to": [
+        9.25,
+        3,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rock",
+          "uv": [
+            6.75,
+            13.0,
+            9.25,
+            14.5
+          ]
+        },
+        "south": {
+          "texture": "#rock",
+          "uv": [
+            6.75,
+            13.0,
+            9.25,
+            14.5
+          ]
+        },
+        "east": {
+          "texture": "#rock",
+          "uv": [
+            7,
+            13.0,
+            9,
+            14.5
+          ]
+        },
+        "west": {
+          "texture": "#rock",
+          "uv": [
+            7,
+            13.0,
+            9,
+            14.5
+          ]
+        },
+        "down": {
+          "texture": "#rock",
+          "uv": [
+            6.75,
+            7,
+            9.25,
+            9
+          ]
+        }
+      }
+    }
+  ]
+}

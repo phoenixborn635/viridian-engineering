@@ -1,0 +1,10 @@
+{
+  "type": "viridian_engineering:mana_infusion",
+  "input": {
+    "item": "minecraft:diamond"
+  },
+  "mana": 10000,
+  "output": {
+    "id": "botania:mana_diamond"
+  }
+}

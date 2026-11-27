@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "MCM",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_reactor_controller"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "lance_thrust": {
+    "subtitle": "subtitles.viridian_engineering.lance_thrust",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.hit",
+        "type": "event"
+      }
+    ]
+  },
+  "lance_charge": {
+    "subtitle": "subtitles.viridian_engineering.lance_charge",
+    "sounds": [
+      {
+        "name": "minecraft:item.trident.riptide_1",
+        "type": "event"
+      }
+    ]
+  },
+  "lance_lunge": {
+    "subtitle": "subtitles.viridian_engineering.lance_lunge",
+    "sounds": [
+      {
+        "name": "minecraft:entity.ender_dragon.flap",
+        "type": "event"
+      }
+    ]
+  },
+  "cannon_charge": {
+    "subtitle": "subtitles.viridian_engineering.cannon_charge",
+    "sounds": [
+      {
+        "name": "minecraft:block.respawn_anchor.charge",
+        "type": "event"
+      }
+    ]
+  },
+  "cannon_fire": {
+    "subtitle": "subtitles.viridian_engineering.cannon_fire",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.power_select",
+        "type": "event"
+      }
+    ]
+  },
+  "cannon_vent": {
+    "subtitle": "subtitles.viridian_engineering.cannon_vent",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event"
+      }
+    ]
+  },
+  "cannon_cooldown": {
+    "subtitle": "subtitles.viridian_engineering.cannon_cooldown",
+    "sounds": [
+      {
+        "name": "minecraft:block.fire.extinguish",
+        "type": "event"
+      }
+    ]
+  },
+  "battery_unstable": {
+    "subtitle": "subtitles.viridian_engineering.battery_unstable",
+    "sounds": [
+      {
+        "name": "minecraft:block.beacon.deactivate",
+        "type": "event"
+      }
+    ]
+  },
+  "battery_detonate": {
+    "subtitle": "subtitles.viridian_engineering.battery_detonate",
+    "sounds": [
+      {
+        "name": "minecraft:entity.generic.explode",
+        "type": "event"
+      }
+    ]
+  },
+  "spark_link": {
+    "subtitle": "subtitles.viridian_engineering.spark_link",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.chime",
+        "type": "event"
+      }
+    ]
+  },
+  "alfheim_infuse": {
+    "subtitle": "subtitles.viridian_engineering.alfheim_infuse",
+    "sounds": [
+      {
+        "name": "minecraft:block.amethyst_block.resonate",
+        "type": "event"
+      }
+    ]
+  },
+  "alfheim_detach": {
+    "subtitle": "subtitles.viridian_engineering.alfheim_detach",
+    "sounds": [
+      {
+        "name": "minecraft:entity.item.pickup",
+        "type": "event"
+      }
+    ]
+  },
+  "boot_dash": {
+    "subtitle": "subtitles.viridian_engineering.boot_dash",
+    "sounds": [
+      {
+        "name": "minecraft:item.firecharge.use",
+        "type": "event"
+      }
+    ]
+  }
+}

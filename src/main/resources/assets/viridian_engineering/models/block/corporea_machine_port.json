@@ -1,0 +1,138 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "mouth": "viridian_engineering:block/corporea_port_mouth",
+    "frame": "viridian_engineering:block/corporea_port_frame",
+    "body": "viridian_engineering:block/corporea_machine_port_body",
+    "pipe": "viridian_engineering:block/corporea_pipes",
+    "particle": "viridian_engineering:block/corporea_port_frame"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        1,
+        0
+      ],
+      "to": [
+        15,
+        15,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#mouth",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#frame"
+        },
+        "east": {
+          "texture": "#frame"
+        },
+        "west": {
+          "texture": "#frame"
+        },
+        "up": {
+          "texture": "#frame"
+        },
+        "down": {
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        3,
+        3
+      ],
+      "to": [
+        13,
+        13,
+        11
+      ],
+      "faces": {
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        11
+      ],
+      "to": [
+        12,
+        12,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            2.5,
+            4,
+            0
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            2.5,
+            4,
+            0
+          ],
+          "rotation": 180
+        },
+        "down": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            0,
+            4,
+            2.5
+          ],
+          "rotation": 180
+        },
+        "south": {
+          "texture": "#pipe",
+          "uv": [
+            11,
+            11,
+            16,
+            16
+          ],
+          "cullface": "south"
+        }
+      }
+    }
+  ]
+}

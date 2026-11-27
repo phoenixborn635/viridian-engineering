@@ -1,0 +1,10 @@
+{
+  "type": "viridian_engineering:mana_infusion",
+  "input": {
+    "item": "minecraft:ender_pearl"
+  },
+  "mana": 6000,
+  "output": {
+    "id": "botania:mana_pearl"
+  }
+}

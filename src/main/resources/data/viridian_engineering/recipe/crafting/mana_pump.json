@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "NPN",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "N": {
+      "item": "botania:terrasteel_nugget"
+    },
+    "P": {
+      "item": "viridian_engineering:terrasteel_mana_pipe"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:mana_pump"
+  }
+}

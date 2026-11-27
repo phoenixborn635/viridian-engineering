@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "botania:gaia_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:gaia_spirit_sheet"
+    }
+  ]
+}

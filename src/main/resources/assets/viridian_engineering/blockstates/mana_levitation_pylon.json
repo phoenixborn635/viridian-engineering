@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "viridian_engineering:block/mana_levitation_pylon_lower"
+    },
+    "half=upper": {
+      "model": "viridian_engineering:block/mana_levitation_pylon_upper"
+    }
+  }
+}

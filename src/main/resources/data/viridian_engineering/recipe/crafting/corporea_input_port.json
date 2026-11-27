@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    "BC "
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_funnel"
+    },
+    "B": {
+      "item": "botania:corporea_funnel"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_input_port"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "viridian_engineering:mana_infusion",
+  "input": {
+    "item": "minecraft:iron_block"
+  },
+  "mana": 27000,
+  "output": {
+    "id": "botania:manasteel_block",
+    "count": 1
+  }
+}

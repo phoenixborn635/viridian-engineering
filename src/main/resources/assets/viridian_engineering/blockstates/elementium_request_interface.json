@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "viridian_engineering:block/elementium_request_interface"
+    },
+    "facing=east": {
+      "model": "viridian_engineering:block/elementium_request_interface",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "viridian_engineering:block/elementium_request_interface",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "viridian_engineering:block/elementium_request_interface",
+      "y": 270
+    }
+  }
+}

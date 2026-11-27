@@ -1,0 +1,280 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "viridian_engineering:block/p4_terrasteel_trim",
+    "frame": "viridian_engineering:block/p4_terrasteel_trim",
+    "leaf": "viridian_engineering:block/terrasteel_casing",
+    "gem": "viridian_engineering:block/p4_reactor_core"
+  },
+  "elements": [
+    {
+      "from": [
+        6.5,
+        8.5,
+        -2
+      ],
+      "to": [
+        9.5,
+        11.5,
+        -1.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8.5,
+        -2
+      ],
+      "to": [
+        9.5,
+        11.5,
+        -2
+      ],
+      "faces": {
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8.5,
+        -1.1
+      ],
+      "to": [
+        9.5,
+        11.5,
+        -1.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        9.5,
+        8.5,
+        -2
+      ],
+      "to": [
+        9.5,
+        11.5,
+        -1.1
+      ],
+      "faces": {
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8.5,
+        -2
+      ],
+      "to": [
+        6.5,
+        11.5,
+        -1.1
+      ],
+      "faces": {
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        6.5,
+        11.5,
+        -2
+      ],
+      "to": [
+        9.5,
+        11.5,
+        -1.1
+      ],
+      "faces": {
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8.5,
+        -2
+      ],
+      "to": [
+        9.5,
+        8.5,
+        -1.1
+      ],
+      "faces": {
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          10,
+          -0.75
+        ],
+        "axis": "z",
+        "angle": 45
+      }
+    }
+  ]
+}

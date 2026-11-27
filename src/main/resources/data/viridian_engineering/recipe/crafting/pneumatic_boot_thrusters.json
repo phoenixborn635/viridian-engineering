@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "NMN",
+    " G "
+  ],
+  "key": {
+    "N": {
+      "item": "create:nozzle"
+    },
+    "G": {
+      "item": "viridian_engineering:gaia_spirit_sheet"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:pneumatic_boot_thrusters"
+  }
+}

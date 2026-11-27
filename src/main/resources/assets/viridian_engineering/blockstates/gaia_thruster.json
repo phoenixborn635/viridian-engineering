@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "viridian_engineering:block/gaia_thruster"
+    },
+    "facing=down": {
+      "model": "viridian_engineering:block/gaia_thruster",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "viridian_engineering:block/gaia_thruster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "viridian_engineering:block/gaia_thruster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "viridian_engineering:block/gaia_thruster",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "viridian_engineering:block/gaia_thruster",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

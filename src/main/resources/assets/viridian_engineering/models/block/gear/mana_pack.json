@@ -1,0 +1,260 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tank": "viridian_engineering:block/gear_tank",
+    "plate": "viridian_engineering:block/gear_plate",
+    "bark": "viridian_engineering:block/gear_bark",
+    "gold": "viridian_engineering:block/gear_gold",
+    "rock": "viridian_engineering:block/p4_rock",
+    "gem": "viridian_engineering:block/p4_crystal_green",
+    "pink": "viridian_engineering:block/p4_crystal_pink",
+    "particle": "viridian_engineering:block/gear_plate"
+  },
+  "elements": [
+    {
+      "from": [
+        3.5,
+        2.5,
+        9
+      ],
+      "to": [
+        12.5,
+        13.5,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bark",
+          "uv": [
+            3.5,
+            2.5,
+            12.5,
+            13.5
+          ]
+        },
+        "south": {
+          "texture": "#bark",
+          "uv": [
+            3.5,
+            2.5,
+            12.5,
+            13.5
+          ]
+        },
+        "east": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            2.5,
+            7,
+            13.5
+          ]
+        },
+        "west": {
+          "texture": "#bark",
+          "uv": [
+            9,
+            2.5,
+            10,
+            13.5
+          ]
+        },
+        "up": {
+          "texture": "#bark",
+          "uv": [
+            3.5,
+            9,
+            12.5,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#bark",
+          "uv": [
+            3.5,
+            6,
+            12.5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4.5,
+        3.5,
+        6
+      ],
+      "to": [
+        11.5,
+        12.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#rock",
+          "uv": [
+            4.5,
+            3.5,
+            11.5,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#rock",
+          "uv": [
+            7,
+            3.5,
+            10,
+            12.5
+          ]
+        },
+        "west": {
+          "texture": "#rock",
+          "uv": [
+            6,
+            3.5,
+            9,
+            12.5
+          ]
+        },
+        "up": {
+          "texture": "#rock",
+          "uv": [
+            4.5,
+            6,
+            11.5,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#rock",
+          "uv": [
+            4.5,
+            7,
+            11.5,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4.25,
+        5,
+        5.75
+      ],
+      "to": [
+        11.75,
+        6,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            10,
+            11.75,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#plate",
+          "uv": [
+            7.0,
+            10,
+            10.25,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#plate",
+          "uv": [
+            5.75,
+            10,
+            9.0,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            5.75,
+            11.75,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            7.0,
+            11.75,
+            10.25
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        4.25,
+        10,
+        5.75
+      ],
+      "to": [
+        11.75,
+        11,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            5,
+            11.75,
+            6
+          ]
+        },
+        "east": {
+          "texture": "#plate",
+          "uv": [
+            7.0,
+            5,
+            10.25,
+            6
+          ]
+        },
+        "west": {
+          "texture": "#plate",
+          "uv": [
+            5.75,
+            5,
+            9.0,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            5.75,
+            11.75,
+            9.0
+          ]
+        },
+        "down": {
+          "texture": "#plate",
+          "uv": [
+            4.25,
+            7.0,
+            11.75,
+            10.25
+          ]
+        }
+      }
+    }
+  ]
+}

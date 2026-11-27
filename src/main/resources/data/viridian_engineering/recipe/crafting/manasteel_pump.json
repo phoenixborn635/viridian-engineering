@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "IPI",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "I": {
+      "item": "botania:manasteel_ingot"
+    },
+    "P": {
+      "item": "viridian_engineering:manasteel_fluid_pipe"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:manasteel_pump"
+  }
+}

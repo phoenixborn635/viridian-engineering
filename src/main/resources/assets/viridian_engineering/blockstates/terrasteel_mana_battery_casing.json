@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "formed=false": {
+      "model": "viridian_engineering:block/terrasteel_mana_battery_casing"
+    },
+    "formed=true": {
+      "model": "viridian_engineering:block/formed/hidden_battery"
+    }
+  }
+}

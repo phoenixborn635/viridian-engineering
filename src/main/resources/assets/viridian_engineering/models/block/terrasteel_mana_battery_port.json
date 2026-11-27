@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "viridian_engineering:block/p4_battery_port",
+    "north": "viridian_engineering:block/p4_battery_port",
+    "south": "viridian_engineering:block/p4_battery_port",
+    "east": "viridian_engineering:block/p4_battery_port",
+    "west": "viridian_engineering:block/p4_battery_port",
+    "up": "viridian_engineering:block/p4_battery_port",
+    "down": "viridian_engineering:block/p4_battery_port"
+  }
+}

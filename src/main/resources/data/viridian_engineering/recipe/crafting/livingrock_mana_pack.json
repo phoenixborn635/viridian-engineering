@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "STS",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "botania:livingrock"
+    },
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "T": {
+      "item": "botania:mana_tablet"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:livingrock_mana_pack"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    " C ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:elementium_sheet"
+    },
+    "P": {
+      "item": "botania:pixie_dust"
+    },
+    "C": {
+      "item": "viridian_engineering:terra_drive_16k"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terra_drive_64k"
+  }
+}

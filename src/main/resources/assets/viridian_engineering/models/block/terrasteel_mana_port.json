@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "viridian_engineering:block/p4_mana_port",
+    "north": "viridian_engineering:block/p4_mana_port",
+    "south": "viridian_engineering:block/p4_mana_port",
+    "east": "viridian_engineering:block/p4_mana_port",
+    "west": "viridian_engineering:block/p4_mana_port",
+    "up": "viridian_engineering:block/p4_mana_port",
+    "down": "viridian_engineering:block/p4_mana_port"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "viridian_engineering:mana_infusion",
+  "input": {
+    "item": "minecraft:iron_ingot"
+  },
+  "mana": 3000,
+  "output": {
+    "id": "botania:manasteel_ingot"
+  }
+}

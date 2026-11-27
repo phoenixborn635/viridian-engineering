@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_battery_casing",
+    "count": 4
+  }
+}

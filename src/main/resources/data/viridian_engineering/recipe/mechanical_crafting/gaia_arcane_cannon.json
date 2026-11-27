@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GMG",
+    "TMR",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "viridian_engineering:gaia_spirit_sheet"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "R": {
+      "item": "create:redstone_link"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:gaia_arcane_cannon"
+  },
+  "accept_mirrored": false
+}

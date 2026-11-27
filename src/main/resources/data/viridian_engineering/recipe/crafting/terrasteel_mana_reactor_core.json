@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "TMT",
+    "MDM",
+    "TMT"
+  ],
+  "key": {
+    "T": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "D": {
+      "item": "botania:mana_diamond_block"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_reactor_core"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "LCL",
+    " L "
+  ],
+  "key": {
+    "L": {
+      "item": "botania:livingrock"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_reactor_casing",
+    "count": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "block": "viridian_engineering:mana_levitation_pylon",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "viridian_engineering:mana_levitation_pylon"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "viridian_engineering:blocks/mana_levitation_pylon"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "viridian_engineering:mana_infusion",
+  "input": {
+    "item": "minecraft:string"
+  },
+  "mana": 1250,
+  "output": {
+    "id": "botania:mana_string",
+    "count": 1
+  }
+}

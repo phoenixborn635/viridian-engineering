@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/mechanical_pump/cog",
+  "textures": {
+    "2": "viridian_engineering:block/mana_pump",
+    "particle": "viridian_engineering:block/mana_pump"
+  }
+}

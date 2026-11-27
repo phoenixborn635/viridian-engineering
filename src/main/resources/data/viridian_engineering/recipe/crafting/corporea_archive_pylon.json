@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CMC",
+    " V ",
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "V": {
+      "item": "create:item_vault"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_archive_pylon"
+  }
+}

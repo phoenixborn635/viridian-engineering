@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 5,
+  "transitional_item": {
+    "id": "viridian_engineering:incomplete_mana_mechanism"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "viridian_engineering:incomplete_mana_mechanism"
+        },
+        {
+          "item": "viridian_engineering:terrasteel_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "viridian_engineering:incomplete_mana_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "viridian_engineering:incomplete_mana_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "viridian_engineering:incomplete_mana_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "viridian_engineering:incomplete_mana_mechanism"
+        },
+        {
+          "item": "botania:mana_pearl"
+        }
+      ],
+      "results": [
+        {
+          "id": "viridian_engineering:incomplete_mana_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "viridian_engineering:incomplete_mana_mechanism"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "viridian_engineering:liquid_mana",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "viridian_engineering:incomplete_mana_mechanism"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:mana_mechanism",
+      "chance": 1.0
+    }
+  ]
+}

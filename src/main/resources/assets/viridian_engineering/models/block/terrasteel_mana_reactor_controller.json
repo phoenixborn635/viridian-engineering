@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "viridian_engineering:block/p4_reactor_front",
+    "north": "viridian_engineering:block/p4_reactor_front",
+    "south": "viridian_engineering:block/p4_reactor_casing",
+    "east": "viridian_engineering:block/p4_reactor_casing",
+    "west": "viridian_engineering:block/p4_reactor_casing",
+    "up": "viridian_engineering:block/p4_reactor_casing",
+    "down": "viridian_engineering:block/p4_reactor_casing"
+  }
+}

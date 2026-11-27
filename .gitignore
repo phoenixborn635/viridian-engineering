@@ -1,0 +1,30 @@
+.gradle/
+build/
+out/
+run/
+runs/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+bin/
+logs/
+*-log.txt
+.ve_sync.zip
+
+.gradle-user-home/
+
+# Local reference copies, validation output, and handoff notes
+/.cref*
+/.ref*
+/.ve_*
+/.*.txt
+/*-log*.txt
+/CONTEXT.md
+/HANDOFF.md
+/implementation-log.md
+
+# Python generator cache
+__pycache__/
+*.py[cod]

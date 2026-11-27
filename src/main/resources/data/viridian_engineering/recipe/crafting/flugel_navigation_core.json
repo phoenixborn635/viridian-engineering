@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "ECM"
+  ],
+  "key": {
+    "D": {
+      "item": "botania:dragonstone"
+    },
+    "E": {
+      "item": "botania:ender_air_bottle"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:flugel_navigation_core"
+  }
+}

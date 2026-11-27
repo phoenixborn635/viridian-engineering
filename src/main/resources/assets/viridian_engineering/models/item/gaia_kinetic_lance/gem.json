@@ -1,0 +1,485 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "gold": "viridian_engineering:item/lance/gold",
+    "silver": "viridian_engineering:item/lance/silver",
+    "grip": "viridian_engineering:item/lance/grip",
+    "cog": "viridian_engineering:item/lance/cog",
+    "gem": "viridian_engineering:item/lance/gem",
+    "particle": "viridian_engineering:item/lance/silver"
+  },
+  "elements": [
+    {
+      "from": [
+        6.75,
+        6,
+        7.5
+      ],
+      "to": [
+        7,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        6,
+        7.5
+      ],
+      "to": [
+        9.25,
+        16,
+        8.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            1.0
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        6,
+        6.75
+      ],
+      "to": [
+        8.5,
+        16,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            0.25
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            0.25
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        7.5,
+        6,
+        9
+      ],
+      "to": [
+        8.5,
+        16,
+        9.25
+      ],
+      "faces": {
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.875,
+            0,
+            8.125,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            0.25
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.5,
+            0,
+            8.5,
+            0.25
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.6,
+        20.6,
+        7.1
+      ],
+      "to": [
+        7.1,
+        22.4,
+        7.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            9.6,
+            8.75,
+            11.4
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        8.9,
+        20.6,
+        7.1
+      ],
+      "to": [
+        10.4,
+        22.4,
+        7.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            9.6,
+            8.75,
+            11.4
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.6,
+        20.6,
+        8.75
+      ],
+      "to": [
+        7.1,
+        22.4,
+        8.9
+      ],
+      "faces": {
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            9.6,
+            8.75,
+            11.4
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        8.9,
+        20.6,
+        8.75
+      ],
+      "to": [
+        10.4,
+        22.4,
+        8.9
+      ],
+      "faces": {
+        "south": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            9.6,
+            8.75,
+            11.4
+          ]
+        },
+        "east": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "west": {
+          "texture": "#gem",
+          "uv": [
+            7.925,
+            9.6,
+            8.075,
+            11.4
+          ]
+        },
+        "up": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        },
+        "down": {
+          "texture": "#gem",
+          "uv": [
+            7.25,
+            0,
+            8.75,
+            0.15
+          ]
+        }
+      }
+    }
+  ]
+}

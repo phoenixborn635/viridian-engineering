@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "viridian_engineering:gaia_arcane_cannon_part", "required": false },
+    { "id": "viridian_engineering:gaia_thruster_part", "required": false }
+  ]
+}

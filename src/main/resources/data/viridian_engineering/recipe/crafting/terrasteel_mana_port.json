@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "PCP",
+    " M "
+  ],
+  "key": {
+    "M": {
+      "item": "botania:mana_pearl"
+    },
+    "P": {
+      "item": "viridian_engineering:terrasteel_mana_pipe"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_reactor_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_port"
+  }
+}

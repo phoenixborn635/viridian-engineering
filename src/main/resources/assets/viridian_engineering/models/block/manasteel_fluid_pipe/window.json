@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/fluid_pipe/window",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "viridian_engineering:block/manasteel_pipe_window",
+    "particle": "viridian_engineering:block/manasteel_pipes_connected"
+  }
+}

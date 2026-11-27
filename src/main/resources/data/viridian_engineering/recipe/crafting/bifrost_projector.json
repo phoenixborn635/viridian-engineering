@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "C",
+    "M"
+  ],
+  "key": {
+    "B": {
+      "item": "botania:bifrost_perm"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:bifrost_projector"
+  }
+}

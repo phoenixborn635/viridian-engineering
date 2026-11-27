@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SPS",
+    " C ",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "P": {
+      "item": "botania:dragonstone"
+    },
+    "C": {
+      "item": "viridian_engineering:terra_drive_64k"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terra_drive_256k"
+  }
+}

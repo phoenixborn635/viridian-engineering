@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "viridian_engineering:block/elementium_casing"
+  }
+}

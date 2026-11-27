@@ -1,0 +1,23 @@
+{
+  "type": "viridian_engineering:sylvan_armor_forge",
+  "category": "misc",
+  "pattern": [
+    "GTG",
+    " M "
+  ],
+  "key": {
+    "G": {
+      "item": "viridian_engineering:gaia_spirit_sheet"
+    },
+    "T": {
+      "item": "botania:terrasteel_helmet"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:sylvan_helmet"
+  },
+  "accept_mirrored": true
+}

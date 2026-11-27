@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "CM "
+  ],
+  "key": {
+    "I": {
+      "item": "botania:corporea_index"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_bridge_port"
+  }
+}

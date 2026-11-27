@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SNS"
+  ],
+  "key": {
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "N": {
+      "item": "botania:terrasteel_nugget"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_pipe",
+    "count": 16
+  }
+}

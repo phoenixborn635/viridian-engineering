@@ -1,0 +1,224 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+// ---------------------------------------------------------------------------
+// Repositories
+// ---------------------------------------------------------------------------
+repositories {
+    mavenCentral()
+    maven {
+        name = 'Create / Ponder / Flywheel'
+        url = 'https://maven.createmod.net'
+        content {
+            includeGroup 'com.simibubi.create'
+            includeGroup 'net.createmod.ponder'
+            includeGroupAndSubgroups 'dev.engine-room'
+        }
+    }
+    maven {
+        name = 'Registrate'
+        url = 'https://mvn.devos.one/snapshots/'
+        content { includeGroup 'com.tterrag.registrate' }
+    }
+    maven {
+        name = 'Ryan (Sable, Veil companion)'
+        url = 'https://maven.ryanhcode.dev/releases'
+        content {
+            includeGroupAndSubgroups 'dev.ryanhcode'
+            includeGroupAndSubgroups 'foundry.veil'
+            includeGroup 'gg.moonflower'      // Veil: molang-compiler
+            includeGroup 'io.github.ocelot'   // Veil: glsl-processor
+        }
+    }
+    maven {
+        name = 'BlameJared (JEI, Patchouli, Veil)'
+        url = 'https://maven.blamejared.com'
+        content {
+            includeGroup 'mezz.jei'
+            includeGroup 'vazkii.patchouli'
+            includeGroupAndSubgroups 'foundry.veil'
+            includeGroup 'gg.moonflower'
+            includeGroup 'io.github.ocelot'
+        }
+    }
+    maven {
+        name = 'Curios'
+        url = 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+    maven {
+        name = 'TerraformersMC (EMI)'
+        url = 'https://maven.terraformersmc.com/'
+        content { includeGroup 'dev.emi' }
+    }
+    exclusiveContent {
+        forRepository { maven { name = 'Modrinth'; url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    exclusiveContent {
+        forRepository { maven { name = 'CurseMaven'; url = 'https://cursemaven.com' } }
+        filter { includeGroup 'curse.maven' }
+    }
+}
+
+// ---------------------------------------------------------------------------
+// NeoForge / runs
+// ---------------------------------------------------------------------------
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        // Each run gets its own game folder. Sable unpacks a native physics DLL into
+        // <gameDir>\.sable\natives, and Windows locks it while a game is running, so a
+        // shared folder makes the client crash whenever the dev server is already up.
+        client {
+            client()
+            gameDirectory = project.file('run/client')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        server {
+            server()
+            gameDirectory = project.file('run/server')
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run/gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        data {
+            data()
+            gameDirectory = project.file('run/data')
+            programArguments.addAll '--mod', project.mod_id, '--all',
+                    '--output', file('src/generated/resources/').getAbsolutePath(),
+                    '--existing', file('src/main/resources/').getAbsolutePath(),
+                    '--existing-mod', 'create', '--existing-mod', 'botania'
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+// ---------------------------------------------------------------------------
+// Create: Aeronautics ships as one "bundled" jar whose real classes live in
+// nested jars (META-INF/jarjar). FML loads those at runtime, but javac can't
+// see inside them, so we unpack the nested jars for the compile classpath.
+// ---------------------------------------------------------------------------
+configurations {
+    aeronauticsBundle { canBeConsumed = false; canBeResolved = true; transitive = false }
+}
+
+def extractAeronautics = tasks.register('extractAeronauticsJars', Sync) {
+    def bundle = configurations.aeronauticsBundle
+    inputs.files(bundle)
+    from({ bundle.collect { zipTree(it) } }) {
+        include 'META-INF/jarjar/*.jar'
+        eachFile { it.path = it.name }
+        includeEmptyDirs = false
+    }
+    into layout.buildDirectory.dir('aeronautics-jars')
+}
+neoForge.ideSyncTask extractAeronautics
+
+dependencies {
+    // ---- Create 6 (slim jar + its libraries declared explicitly) ----
+    implementation("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
+    implementation("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}") { transitive = false }
+    compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
+    runtimeOnly("dev.engine-room.flywheel:flywheel-neoforge-${minecraft_version}:${flywheel_version}")
+    // Registrate is bundled inside the full Create jar players install, so we don't jar-in-jar it.
+    implementation("com.tterrag.registrate:Registrate:${registrate_version}")
+
+    // ---- Botania Revived ----
+    implementation("curse.maven:botania-revived-${botania_curse_project}:${botania_curse_file}")
+    runtimeOnly("vazkii.patchouli:Patchouli:${patchouli_version}")
+    runtimeOnly("top.theillusivec4.curios:curios-neoforge:${curios_version}")
+
+    // ---- Sable (physics sublevels) ----
+    implementation("dev.ryanhcode.sable:sable-neoforge-${minecraft_version}:${sable_version}") {
+        // We pin Create and its libraries ourselves above.
+        exclude group: 'com.simibubi.create'
+        exclude group: 'net.createmod.ponder'
+        exclude group: 'com.tterrag.registrate'
+        exclude group: 'dev.engine-room.flywheel'
+    }
+
+    // ---- Create: Aeronautics (bundled Simulated + Aeronautics) ----
+    aeronauticsBundle("maven.modrinth:create-aeronautics:${aeronautics_modrinth_version}")
+    runtimeOnly("maven.modrinth:create-aeronautics:${aeronautics_modrinth_version}") { transitive = false }
+    compileOnly(fileTree(layout.buildDirectory.dir('aeronautics-jars')) { include '*.jar' }.builtBy(extractAeronautics))
+
+    // ---- Recipe viewers ----
+    compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+    compileOnly("dev.emi:emi-neoforge:${emi_version}:api")
+}
+
+tasks.named('compileJava') { dependsOn extractAeronautics }
+
+// ---------------------------------------------------------------------------
+// neoforge.mods.toml generation
+// ---------------------------------------------------------------------------
+def generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    def props = [
+            minecraft_version_range    : minecraft_version_range,
+            neo_version_range          : neo_version_range,
+            loader_version_range       : loader_version_range,
+            mod_id                     : mod_id,
+            mod_name                   : mod_name,
+            mod_license                : mod_license,
+            mod_version                : mod_version,
+            mod_authors                : mod_authors,
+            mod_description            : mod_description,
+            create_mod_version_range   : create_mod_version_range,
+            botania_mod_version_range  : botania_mod_version_range,
+            aeronautics_mod_version_range: aeronautics_mod_version_range,
+            sable_mod_version_range    : sable_mod_version_range,
+    ]
+    inputs.properties props
+    expand props
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

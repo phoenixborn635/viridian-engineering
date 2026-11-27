@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "SCS",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_reactor_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_shaft_port"
+  }
+}

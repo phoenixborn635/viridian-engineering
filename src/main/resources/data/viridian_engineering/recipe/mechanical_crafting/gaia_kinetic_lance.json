@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  G",
+    " GT",
+    "WM ",
+    "W  "
+  ],
+  "key": {
+    "G": {
+      "item": "viridian_engineering:gaia_spirit_sheet"
+    },
+    "T": {
+      "item": "botania:terrasteel_ingot"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "W": {
+      "item": "botania:livingwood_twig"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:gaia_kinetic_lance"
+  },
+  "accept_mirrored": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "botania:elementium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:elementium_sheet"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    " E ",
+    "PM "
+  ],
+  "key": {
+    "D": {
+      "item": "botania:dragonstone"
+    },
+    "E": {
+      "item": "viridian_engineering:elementium_sheet"
+    },
+    "P": {
+      "item": "botania:pixie_dust"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:alfheim_infusion_module"
+  }
+}

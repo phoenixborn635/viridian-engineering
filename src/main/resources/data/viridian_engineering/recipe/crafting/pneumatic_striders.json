@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "PMP",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "viridian_engineering:terrasteel_sheet"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:pneumatic_striders"
+  }
+}

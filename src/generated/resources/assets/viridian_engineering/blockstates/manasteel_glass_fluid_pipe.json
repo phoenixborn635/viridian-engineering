@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "viridian_engineering:block/manasteel_fluid_pipe/window",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "viridian_engineering:block/manasteel_fluid_pipe/window"
+    },
+    "axis=z": {
+      "model": "viridian_engineering:block/manasteel_fluid_pipe/window",
+      "x": 90
+    }
+  }
+}

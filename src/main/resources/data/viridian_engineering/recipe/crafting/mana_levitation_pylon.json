@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " F ",
+    "ECM"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "E": {
+      "item": "viridian_engineering:elementium_sheet"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:mana_levitation_pylon"
+  }
+}

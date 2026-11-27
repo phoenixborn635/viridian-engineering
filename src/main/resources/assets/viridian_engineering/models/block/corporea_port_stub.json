@@ -1,0 +1,63 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "pipe": "viridian_engineering:block/corporea_pipes",
+    "particle": "viridian_engineering:block/corporea_pipes"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4,
+        0
+      ],
+      "to": [
+        12,
+        12,
+        3
+      ],
+      "faces": {
+        "east": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ],
+          "rotation": 90
+        },
+        "west": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            1.5,
+            4,
+            0
+          ],
+          "rotation": 90
+        },
+        "up": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            1.5,
+            4,
+            0
+          ],
+          "rotation": 180
+        },
+        "down": {
+          "texture": "#pipe",
+          "uv": [
+            0,
+            0,
+            4,
+            1.5
+          ],
+          "rotation": 180
+        }
+      }
+    }
+  ]
+}

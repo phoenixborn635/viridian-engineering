@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "viridian_engineering:block/p4_reactor_casing"
+  },
+  "elements": [],
+  "render_type": "minecraft:cutout_mipped"
+}

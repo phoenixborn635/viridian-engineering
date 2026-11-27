@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/encased_fluid_pipe/block_flat",
+  "textures": {
+    "0": "viridian_engineering:block/manasteel_casing",
+    "particle": "viridian_engineering:block/manasteel_casing"
+  }
+}

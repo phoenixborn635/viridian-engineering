@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "viridian_engineering:block/flugel_navigation_core"
+    },
+    "facing=east": {
+      "model": "viridian_engineering:block/flugel_navigation_core",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "viridian_engineering:block/flugel_navigation_core",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "viridian_engineering:block/flugel_navigation_core",
+      "y": 270
+    }
+  }
+}

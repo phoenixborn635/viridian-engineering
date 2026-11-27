@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    "NS "
+  ],
+  "key": {
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "N": {
+      "item": "botania:terrasteel_nugget"
+    },
+    "S": {
+      "item": "botania:corporea_spark"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:arcane_corporea_spark"
+  }
+}

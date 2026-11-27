@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "botania:livingwood_logs"
+    },
+    {
+      "item": "viridian_engineering:manasteel_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:manasteel_casing"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "botania:terrasteel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:terrasteel_sheet"
+    }
+  ]
+}

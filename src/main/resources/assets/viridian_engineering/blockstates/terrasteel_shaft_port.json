@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port"
+    },
+    "facing=east": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "viridian_engineering:block/terrasteel_shaft_port",
+      "x": 90
+    }
+  }
+}

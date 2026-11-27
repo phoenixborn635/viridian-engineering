@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " O ",
+    " C ",
+    " R "
+  ],
+  "key": {
+    "O": {
+      "item": "create:content_observer"
+    },
+    "C": {
+      "item": "viridian_engineering:elementium_casing"
+    },
+    "R": {
+      "item": "create:redstone_link"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:elementium_request_interface"
+  }
+}

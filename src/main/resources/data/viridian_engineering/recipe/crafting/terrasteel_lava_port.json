@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " T ",
+    "PCP",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "P": {
+      "item": "viridian_engineering:manasteel_fluid_pipe"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_reactor_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_lava_port"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "tag": "botania:dreamwood_logs"
+    },
+    {
+      "item": "viridian_engineering:elementium_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:elementium_casing"
+    }
+  ]
+}

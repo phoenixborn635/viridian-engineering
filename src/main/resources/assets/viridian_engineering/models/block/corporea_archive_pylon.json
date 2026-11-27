@@ -1,0 +1,270 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "body": "viridian_engineering:block/corporea_archive_pylon_body",
+    "front": "viridian_engineering:block/corporea_archive_pylon_front",
+    "trim": "viridian_engineering:block/corporea_archive_pylon_trim",
+    "top": "viridian_engineering:block/corporea_archive_pylon_top",
+    "crystal": "viridian_engineering:block/corporea_crystal",
+    "particle": "viridian_engineering:block/corporea_archive_pylon_body"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#trim",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#trim",
+          "cullface": "south"
+        },
+        "east": {
+          "texture": "#trim",
+          "cullface": "east"
+        },
+        "west": {
+          "texture": "#trim",
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#trim"
+        },
+        "down": {
+          "texture": "#trim",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        2,
+        1
+      ],
+      "to": [
+        15,
+        11,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front",
+          "uv": [
+            1,
+            5,
+            15,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        11,
+        0
+      ],
+      "to": [
+        16,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#trim",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#trim",
+          "cullface": "south"
+        },
+        "east": {
+          "texture": "#trim",
+          "cullface": "east"
+        },
+        "west": {
+          "texture": "#trim",
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#trim"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        13,
+        1
+      ],
+      "to": [
+        3,
+        15,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crystal"
+        },
+        "south": {
+          "texture": "#crystal"
+        },
+        "east": {
+          "texture": "#crystal"
+        },
+        "west": {
+          "texture": "#crystal"
+        },
+        "up": {
+          "texture": "#crystal"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          2,
+          14,
+          2
+        ]
+      }
+    },
+    {
+      "from": [
+        13,
+        13,
+        1
+      ],
+      "to": [
+        15,
+        15,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crystal"
+        },
+        "south": {
+          "texture": "#crystal"
+        },
+        "east": {
+          "texture": "#crystal"
+        },
+        "west": {
+          "texture": "#crystal"
+        },
+        "up": {
+          "texture": "#crystal"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          14,
+          14,
+          2
+        ]
+      }
+    },
+    {
+      "from": [
+        1,
+        13,
+        13
+      ],
+      "to": [
+        3,
+        15,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crystal"
+        },
+        "south": {
+          "texture": "#crystal"
+        },
+        "east": {
+          "texture": "#crystal"
+        },
+        "west": {
+          "texture": "#crystal"
+        },
+        "up": {
+          "texture": "#crystal"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          2,
+          14,
+          14
+        ]
+      }
+    },
+    {
+      "from": [
+        13,
+        13,
+        13
+      ],
+      "to": [
+        15,
+        15,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#crystal"
+        },
+        "south": {
+          "texture": "#crystal"
+        },
+        "east": {
+          "texture": "#crystal"
+        },
+        "west": {
+          "texture": "#crystal"
+        },
+        "up": {
+          "texture": "#crystal"
+        }
+      },
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          14,
+          14,
+          14
+        ]
+      }
+    }
+  ]
+}

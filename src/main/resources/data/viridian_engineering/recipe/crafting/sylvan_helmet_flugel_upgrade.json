@@ -1,0 +1,18 @@
+{
+  "type": "viridian_engineering:armor_upgrade",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "viridian_engineering:sylvan_helmet"
+    },
+    {
+      "item": "botania:flight_tiara"
+    },
+    {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  ],
+  "result": {
+    "id": "viridian_engineering:sylvan_helmet"
+  }
+}

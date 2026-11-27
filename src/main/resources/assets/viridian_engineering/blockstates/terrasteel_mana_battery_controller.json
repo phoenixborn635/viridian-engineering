@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "viridian_engineering:block/terrasteel_mana_battery_controller"
+    },
+    "facing=east": {
+      "model": "viridian_engineering:block/terrasteel_mana_battery_controller",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "viridian_engineering:block/terrasteel_mana_battery_controller",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "viridian_engineering:block/terrasteel_mana_battery_controller",
+      "y": 270
+    }
+  }
+}

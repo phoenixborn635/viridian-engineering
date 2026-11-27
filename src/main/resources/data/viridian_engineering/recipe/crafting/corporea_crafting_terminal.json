@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DC",
+    "MT"
+  ],
+  "key": {
+    "D": {
+      "item": "create:display_board"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:corporea_crafting_terminal"
+  }
+}

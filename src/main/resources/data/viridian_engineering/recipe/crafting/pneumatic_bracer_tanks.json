@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " B ",
+    "SMS",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "create:copper_backtank"
+    },
+    "S": {
+      "item": "viridian_engineering:manasteel_sheet"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:pneumatic_bracer_tanks"
+  }
+}

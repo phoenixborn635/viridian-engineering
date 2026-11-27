@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "viridian_engineering:manasteel_fluid_pipe"
+    },
+    {
+      "item": "viridian_engineering:manasteel_casing"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:encased_manasteel_fluid_pipe"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " G ",
+    "PMP",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "viridian_engineering:gaia_spirit_sheet"
+    },
+    "P": {
+      "item": "aeronautics:andesite_propeller"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:gaia_thruster"
+  },
+  "accept_mirrored": false
+}

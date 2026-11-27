@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "botania:manasteel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "id": "viridian_engineering:manasteel_sheet"
+    }
+  ]
+}

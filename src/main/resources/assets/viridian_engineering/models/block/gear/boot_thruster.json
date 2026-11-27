@@ -1,0 +1,260 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tank": "viridian_engineering:block/gear_tank",
+    "plate": "viridian_engineering:block/gear_plate",
+    "bark": "viridian_engineering:block/gear_bark",
+    "gold": "viridian_engineering:block/gear_gold",
+    "rock": "viridian_engineering:block/p4_rock",
+    "gem": "viridian_engineering:block/p4_crystal_green",
+    "pink": "viridian_engineering:block/p4_crystal_pink",
+    "particle": "viridian_engineering:block/gear_plate"
+  },
+  "elements": [
+    {
+      "from": [
+        5.5,
+        6,
+        9
+      ],
+      "to": [
+        10.5,
+        10,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bark",
+          "uv": [
+            5.5,
+            6,
+            10.5,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#bark",
+          "uv": [
+            5.5,
+            6,
+            10.5,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#bark",
+          "uv": [
+            6,
+            6,
+            7,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#bark",
+          "uv": [
+            9,
+            6,
+            10,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#bark",
+          "uv": [
+            5.5,
+            9,
+            10.5,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#bark",
+          "uv": [
+            5.5,
+            6,
+            10.5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        6.5,
+        7
+      ],
+      "to": [
+        9.5,
+        9.5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "uv": [
+            6.5,
+            6.5,
+            9.5,
+            9.5
+          ]
+        },
+        "east": {
+          "texture": "#plate",
+          "uv": [
+            7,
+            6.5,
+            9,
+            9.5
+          ]
+        },
+        "west": {
+          "texture": "#plate",
+          "uv": [
+            7,
+            6.5,
+            9,
+            9.5
+          ]
+        },
+        "up": {
+          "texture": "#plate",
+          "uv": [
+            6.5,
+            7,
+            9.5,
+            9
+          ]
+        },
+        "down": {
+          "texture": "#plate",
+          "uv": [
+            6.5,
+            7,
+            9.5,
+            9
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.75,
+        5.75,
+        5
+      ],
+      "to": [
+        10.25,
+        10.25,
+        7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tank",
+          "uv": [
+            5.75,
+            5.75,
+            10.25,
+            10.25
+          ]
+        },
+        "east": {
+          "texture": "#tank",
+          "uv": [
+            9,
+            5.75,
+            11,
+            10.25
+          ]
+        },
+        "west": {
+          "texture": "#tank",
+          "uv": [
+            5,
+            5.75,
+            7,
+            10.25
+          ]
+        },
+        "up": {
+          "texture": "#tank",
+          "uv": [
+            5.75,
+            5,
+            10.25,
+            7
+          ]
+        },
+        "down": {
+          "texture": "#tank",
+          "uv": [
+            5.75,
+            9,
+            10.25,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        5.5,
+        4.5
+      ],
+      "to": [
+        10.5,
+        10.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#gold",
+          "uv": [
+            5.5,
+            5.5,
+            10.5,
+            10.5
+          ]
+        },
+        "east": {
+          "texture": "#gold",
+          "uv": [
+            11.0,
+            5.5,
+            11.5,
+            10.5
+          ]
+        },
+        "west": {
+          "texture": "#gold",
+          "uv": [
+            4.5,
+            5.5,
+            5.0,
+            10.5
+          ]
+        },
+        "up": {
+          "texture": "#gold",
+          "uv": [
+            5.5,
+            4.5,
+            10.5,
+            5.0
+          ]
+        },
+        "down": {
+          "texture": "#gold",
+          "uv": [
+            5.5,
+            11.0,
+            10.5,
+            11.5
+          ]
+        }
+      }
+    }
+  ]
+}

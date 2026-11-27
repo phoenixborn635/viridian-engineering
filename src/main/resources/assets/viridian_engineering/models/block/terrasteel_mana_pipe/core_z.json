@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/fluid_pipe/core_z",
+  "textures": {
+    "0": "viridian_engineering:block/terrasteel_pipes_connected",
+    "particle": "viridian_engineering:block/terrasteel_pipes_connected"
+  }
+}

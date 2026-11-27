@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "rock": "viridian_engineering:block/p4_rock",
+    "band": "viridian_engineering:block/p4_rock_band_green",
+    "wood": "viridian_engineering:block/p4_wood_green",
+    "glass": "viridian_engineering:block/p4_glass_green",
+    "gem": "viridian_engineering:block/p4_crystal_green",
+    "bricks": "viridian_engineering:block/p4_bricks_green",
+    "particle": "viridian_engineering:block/p4_rock_band_green"
+  },
+  "elements": []
+}

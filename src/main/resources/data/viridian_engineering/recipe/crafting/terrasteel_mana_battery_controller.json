@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "MCM"
+  ],
+  "key": {
+    "P": {
+      "item": "botania:mana_pool"
+    },
+    "M": {
+      "item": "viridian_engineering:mana_mechanism"
+    },
+    "C": {
+      "item": "viridian_engineering:terrasteel_casing"
+    }
+  },
+  "result": {
+    "id": "viridian_engineering:terrasteel_mana_battery_controller"
+  }
+}
